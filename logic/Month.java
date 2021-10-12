@@ -8,7 +8,6 @@ import java.util.Set;
  * 	Added monthGrid as instance variable
  * 	Used makeMonth in constructor
  * 	Created getGrid 
- * @by Kevin
  *
  */
 

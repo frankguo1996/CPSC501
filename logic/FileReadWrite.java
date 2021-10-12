@@ -3,7 +3,6 @@ package logic;
  * Used to store and open events from a txt
  * TODO: modify the catch statements
  * TODO: BufferReader
- * @author: Kevin Lee
  *  2017-04-03 11:24 PM
  *  Change log:
  *  	Changed Scanner to BufferedReader

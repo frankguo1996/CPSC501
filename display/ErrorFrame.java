@@ -13,7 +13,6 @@ import javax.swing.JPanel;
 
 /**
  * Simple frame that prints an error message
- * @author Kevin 
  *
  */
 public class ErrorFrame implements BaseFrame{

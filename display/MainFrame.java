@@ -25,7 +25,6 @@ import logic.Month;
 /**
  * The main frame which displays the calendar
  * Displays the calendar, and is used to open the "View events", and "Create events" frames
- * @author Kevin
  *
  */
 public class MainFrame implements BaseFrame{

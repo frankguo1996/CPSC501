@@ -2,7 +2,6 @@ package logic;
 
 /**
  * Enum used to determine the index of a weekday
- * @author Kevin
  *
  */
 

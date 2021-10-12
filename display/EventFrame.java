@@ -25,7 +25,6 @@ import logic.Month;
  * The Frame when user clicks "Create Event" in the main frame
  * User inputs event name, date, time, location.
  * The day combo box changes number, depending on the month and year selected (valid dates only)
- * @author Kevin
  *
  */
 public class EventFrame implements BaseFrame{

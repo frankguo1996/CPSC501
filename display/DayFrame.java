@@ -25,7 +25,6 @@ import logic.EventCollection;
  * This is the dayview mode, it displays a table consisting of all times of the day(24 hours)
  * and can match up the time with an event if it is on that certain day(within the hour)
  * Changelog (April 11 at 1:00PM): Complete
- * @author Parker
  */
 public class DayFrame implements BaseFrame{
     private Date date;

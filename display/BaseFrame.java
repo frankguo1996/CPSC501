@@ -2,7 +2,6 @@ package display;
 
 /**
  * Interface that is inherited by every Frame class
- * @author Kevin
  *
  */
 interface BaseFrame {

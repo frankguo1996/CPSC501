@@ -16,7 +16,6 @@ import logic.FileReadWrite;
 /**
  * Initial frame that prompts the user if they want to use the save file (events) of last instance 
  * of running the calendar application 
- * @author Kevin
  *
  */
 

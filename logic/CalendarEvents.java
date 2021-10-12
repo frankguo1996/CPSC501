@@ -9,7 +9,6 @@ package logic;
  * Used to store and get details of events created
  *  
  * Last modified: 2017-03-13 12:43
- * @author: Kevin Lee
  */
   
  public class CalendarEvents {

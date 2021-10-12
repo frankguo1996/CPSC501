@@ -34,7 +34,7 @@ public class Time {
 	 * @param hour
 	 */
     public void setHour(int hour){
-        if(hourValid(hour)){
+        if(ishourValid(hour)){
             cHour = hour;
         }   
     }
@@ -45,7 +45,7 @@ public class Time {
 	 * @param min
 	 */
     public void setMin(int min){
-        if(minValid(min)){
+        if(isminValid(min)){
             cMin = min;
         }   
     }
@@ -55,7 +55,7 @@ public class Time {
 	 * @param hourInput
 	 * @return whether input is valid(true) or not(false)
 	 */
-    public boolean hourValid(int hourInput){
+    public boolean ishourValid(int hourInput){
         return( 0 <= hourInput && hourInput <= 23);
      
     }
@@ -65,7 +65,7 @@ public class Time {
 	 * @param minInput
 	 * @return whether input is valid(true) or not(false)
 	 */
-    public boolean minValid(int minInput){
+    public boolean isminValid(int minInput){
         return( 0 <= minInput && minInput <= 59);     
     }
 	

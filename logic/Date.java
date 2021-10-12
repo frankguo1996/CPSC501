@@ -1,7 +1,8 @@
 package logic;
- 
+
 
 import java.util.Calendar;
+
 
 /**
  * Date class contains the day, year, and month. We also use java Calendar as the base to adjust date.
@@ -12,19 +13,25 @@ import java.util.Calendar;
  *
  */
 
+
 public class Date {
     private Calendar Cal = Calendar.getInstance();
     private int year;
     private int month;
     private int day;
+    static int YEAR_INDEX = 1;
+    static int MONTH_INDEX = 2;
+    static int DAY_INDEX = 5;
+
+
     
     /**
      * Default Constructor. Setting current Day, Month and Year.
      */
     public Date(){
-    	this.year = Cal.get(1);
-    	this.month = Cal.get(2) + 1;
-    	this.day = Cal.get(5);
+    	this.year = Cal.get(YEAR_INDEX);
+    	this.month = Cal.get(MONTH_INDEX) + 1;
+    	this.day = Cal.get(DAY_INDEX);
     	
     }
     

@@ -6,7 +6,6 @@ import java.util.Set;
 /**
  * A single getter/setter for events in the HashMap
  * TODO: Reminders
- * @author Kevin Lee
  * 2017-04-03 1:09 PM
  * Change Log:
  * 		Added clone constructor, with getters and setters 

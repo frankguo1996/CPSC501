@@ -20,7 +20,6 @@ import logic.Time;
  * Frame when the user clicks "View Events" button in the main frame
  * Displays all the events stored on a single date (all dates are displayed in the combo box) 
  * in the text area
- * @author Kevin
  *
  */
 public class ViewFrame implements BaseFrame{
